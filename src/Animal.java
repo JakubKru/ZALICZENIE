@@ -1,3 +1,5 @@
+import devices.Car;
+import devices.Phone;
 public class Animal
 {
     String name;

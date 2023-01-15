@@ -1,3 +1,5 @@
+import devices.Car;
+import devices.Phone;
 public class Human
 {
     String name;
@@ -17,9 +19,24 @@ public class Human
     {
         this.pet = pet;
     }
-    public void setCar(Car car)
+    public Car getCar()
     {
-        this.car = car;
+        return car;
+    }
+    public void setCar(Car newCar)
+    {
+        if (salary > newCar.value)
+        {
+            System.out.println("Auto kupione za gotówkę.");
+            car = newCar;
+        } else if (salary > (newCar.value / 12))
+        {
+            System.out.println("Auto wzięte na kredyt.");
+            car = newCar;
+        } else
+        {
+            System.out.println("Idź na studia i znajdź nową robotę albo idź po podwyżkę.");
+        }
     }
 
     public void setSalary(Double salary)
