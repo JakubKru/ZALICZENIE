@@ -1,4 +1,5 @@
 import devices.Car;
+import devices.Phone;
 
 public class Main
 {
@@ -18,7 +19,16 @@ public class Main
         H1.setSalary(8000.00);
         Double mySalary = H1.getSalary();
 
+        Phone P1 = new Phone("Samsung",  "czarny", 64);
 
+
+        Human seller = new Human("John", 25, "male");
+        Human buyer = new Human("Mike", 30, "male");
+        seller.setCash(5000.00);
+        buyer.setCash(8000.00);
+        Animal pet = new Animal("Azor", "dog", 15.0);
+        seller.setPet(pet);
+        pet.sell(seller, buyer, 1000.00);
 
 
     }

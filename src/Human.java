@@ -8,6 +8,7 @@ public class Human
     Animal pet;
     private Car car;
     private Double salary;
+    private Double cash;
 
     public Human(String n, int a, String g)
     {
@@ -59,7 +60,18 @@ public class Human
         System.out.println("Wypłata wynosi: " + salary);
         return salary;
     }
+    public void setCash(Double cash)
+    {
+        this.cash = cash;
+    }
+    public Double getCash()
+    {
+        return cash;
+    }
 
-
+    public void getPet()
+    {
+        this.pet = pet;
+    }
 
 }
