@@ -1,5 +1,5 @@
-import devices.Car;
-import devices.Phone;
+package Creatures;
+
 interface Sellable {
     void sell(Human seller, Human buyer, Double price);
 }

@@ -1,5 +1,6 @@
+import Creatures.Animal;
 import devices.Car;
-import devices.Phone;
+
 public class Human
 {
     String name;

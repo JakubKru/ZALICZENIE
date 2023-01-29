@@ -1,3 +1,4 @@
+import Creatures.Animal;
 import devices.Car;
 import devices.Phone;
 
@@ -19,7 +20,7 @@ public class Main
         H1.setSalary(8000.00);
         Double mySalary = H1.getSalary();
 
-        Phone P1 = new Phone("Samsung",  "czarny", 64);
+
 
 
         Human seller = new Human("John", 25, "male");
