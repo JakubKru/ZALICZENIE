@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="264136d2-0889-47e4-a902-379207cf45b0" name="Changes" comment="zad 7+8">
+    <list default="true" id="264136d2-0889-47e4-a902-379207cf45b0" name="Changes" comment="zad 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Creatures/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/devices/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/devices/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/devices/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/devices/Devices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <workItem from="1673778870827" duration="7583000" />
       <workItem from="1673797332316" duration="3694000" />
       <workItem from="1674926105838" duration="1218000" />
-      <workItem from="1674991867939" duration="775000" />
+      <workItem from="1674991867939" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1673719354690</created>
@@ -97,11 +95,29 @@
       <option name="project" value="LOCAL" />
       <updated>1673786735673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zad 10">
+      <created>1674992860248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674992860248</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
@@ -109,6 +125,7 @@
     <MESSAGE value="zad 2+ 3+ 4" />
     <MESSAGE value="zad 5+6" />
     <MESSAGE value="zad 7+8" />
-    <option name="LAST_COMMIT_MESSAGE" value="zad 7+8" />
+    <MESSAGE value="zad 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="zad 10" />
   </component>
 </project>

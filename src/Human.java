@@ -1,21 +1,25 @@
 import Creatures.Animal;
 import devices.Car;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 public class Human
 {
     String name;
     int age;
     String gender;
     Animal pet;
-    private Car car;
+    private Car[] garage;
     private Double salary;
     private Double cash;
 
-    public Human(String n, int a, String g)
+    public Human(String n, int a, String g, int garageSize)
     {
         name = n;
         age = a;
         gender = g;
+        this.garage = new Car[garageSize];
     }
     public void setPet(Animal pet)
     {
@@ -75,4 +79,53 @@ public class Human
         this.pet = pet;
     }
 
+
+
+    public Car getCar(int parkingSpot) {
+        return garage[parkingSpot];
+    }
+
+    public void setCar(int parkingSpot, Car car)
+    {
+        garage[parkingSpot] = car;
+    }
+
+    public double getGarageValue()
+    {
+        double sum = 0;
+        for (Car car : garage)
+        {
+            if (car != null)
+            {
+                sum += car.getValue();
+            }
+        }
+        return sum;
+    }
+
+    public void sortGarageByYear()
+    {
+        Arrays.sort(garage, new Comparator<Car>()
+        {
+            @Override
+            public int compare(Car car1, Car car2)
+            {
+                if (car1 == null && car2 == null)
+                {
+                    return 0;
+                } else if (car1 == null)
+                {
+                    return 1;
+                } else if (car2 == null)
+                {
+                    return -1;
+                }
+                return car1.getYearOfProduction() - car2.getYearOfProduction();
+            }
+        }
+        );
+    }
 }
+
+
+
